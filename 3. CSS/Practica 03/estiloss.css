@@ -1,0 +1,43 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulos {
+    color: blueviolet;
+    text-align: center;
+}
+
+.logo {
+    color: rgb(33, 33, 236);
+}
+
+.body {
+    background-image: url("../Practica 04/fonduki.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+}
+.cabecera {
+    height: 200px;
+}
+.izquierda {
+    text-align: left;
+}
+.derecha {
+    text-align: right;
+}
+.centrado {
+    text-align: center;
+}
+.justificado {
+    text-align: justify;
+}
+.negritas {
+    font-weight: 700;
+}
+.ligeras {
+    font-weight: 100;
+}

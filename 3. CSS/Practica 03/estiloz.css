@@ -1,0 +1,161 @@
+* {
+    font-family: Times New Roman, Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.body {
+    background-image: url("../Practica 04/fonduki.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    display: grid;
+}
+
+.titulos {
+    color: rgb(35, 0, 117);
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.letrasLogo {
+    color: rgb(33, 33, 236);
+}
+
+.textos {
+    color: rgb(0, 0, 75);
+    font-size: 15px;
+}
+
+.informacion {
+    color: rgb(0, 0, 75);
+    font-size: 18px;
+}
+
+.subtitulos {
+    color: rgb(0, 0, 75);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.img {
+    float: center;
+}
+
+
+/* Crear 2 columnas con la misma posición en la fila */
+
+nav {
+    float: left;
+    width: 45%;
+    /* only for demonstration, should be removed */
+    padding: 20px;
+}
+
+.nadaa {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+/*
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+*/
+
+article {
+    float: left;
+    padding: 20px;
+    width: 55%;
+}
+
+
+/* Clear floats after the columns */
+
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.opacidad {
+    opacity: 0.3;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.flotar {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: rgb(180, 173, 173);
+}
+
+.active {
+    background-color: #3844b4;
+}
+
+.tamano {
+    width: 100%;
+}
+
+.encuatro {
+    width: 25;
+    vertical-align: middle;
+}
+
+.cuadro {
+    background-color: rgb(88, 112, 248, 0.4);
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 700px;
+    height: auto;
+}
+
+.cabecera {
+    height: 200px;
+}
+
+.izquierda {
+    text-align: left;
+}
+
+.derecha {
+    text-align: right;
+}
+
+.centrado {
+    text-align: center;
+}
+
+.justificado {
+    text-align: justify;
+}
+
+.negritas {
+    font-weight: 700;
+}
+
+.ligeras {
+    font-weight: 100;
+}
+
+.azulTextos {
+    color: rgb(0, 0, 75);
+}

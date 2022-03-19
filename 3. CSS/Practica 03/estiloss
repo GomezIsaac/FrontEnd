@@ -1,0 +1,52 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.body {
+    background-image: url("../Practica 04/fonduki.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.titulos {
+    color: rgb(5, 5, 163);
+    text-align: center;
+    font-size: 10%;
+}
+
+.subtitulos {
+    color: rgb(5, 5, 163);
+    text-align: center;
+    font-size: 1%;
+}
+
+.alineado {
+    text-align: left;
+    color: rgb(2, 2, 36);
+    font-size: 1%;
+}
+
+.logo {
+    color: rgb(33, 33, 236);
+}
+
+.cabecera {
+    height: 200px;
+}
+
+div {
+    width: 50%;
+}
+
+.textizq {
+    text-align: left;
+}
+
+.textderc {
+    text-align: right;
+}
+
+.imgderecha {
+    position: right;
+}

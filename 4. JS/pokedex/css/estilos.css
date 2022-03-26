@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'pokemon-font';
+    src: url('../fonts/pokemon-font.eot');
+    src: url('../fonts/pokemon-font.eot?#iefix') format('embedded-opentype'), url('../fonts/pokemon-font.woff2') format('woff2'), url('../fonts/pokemon-font.woff') format('woff'), url('../fonts/pokemon-font.ttf') format('truetype')
+}
+
+body {
+    background-image: url("fondo.png");
+    background-size: 100%;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+.plantilla {
+    background-image: url("../img/plantilla.png");
+    height: 700px;
+    width: 800px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.PokeImg {
+    width: 80px;
+    height: 80px;
+    border-radius: 80%;
+}
+
+.centrar {
+    display: flex;
+    justify-content: center;
+}
+
+input[type="text"] {
+    line-height: 36px;
+    height: 40px;
+    width: 133px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #f2efa5;
+    font-family: 'pokemon-font';
+}
+
+.font {
+    font-family: 'pokemon-font';
+    font-size: 14px;
+}
+
+.cuadro {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    align-self: center;
+    gap: 14px;
+}
+
+.bloque1 {
+    width: 270px;
+    height: 100px;
+    overflow: auto;
+}
+
+.bloque2 {
+    background-color: black;
+    border-radius: 20px;
+    width: 212px;
+    height: 40px;
+    text-align: center;
+}
+
+.info {
+    font-family: 'pokemon-font';
+    font-size: 12px;
+}
+
+.PokeTipos {
+    font-family: 'pokemon-font';
+}
+
+.PokeMoves {
+    font-family: 'pokemon-font';
+    font-size: 12px;
+}
+
+.posicion1 {
+    position: absolute;
+    transform: translate(373%, 1105%);
+}
+
+.posicion2 {
+    position: absolute;
+    transform: translate(320%, 280%);
+}
+
+.posicion3 {
+    position: absolute;
+    transform: translate(90px, 375px);
+    background-color: rgb(1, 1, 233);
+    color: white;
+}
+
+.posicion4 {
+    position: absolute;
+    transform: translate(68px, 247px);
+    text-align: center;
+}
+
+.posicion5 {
+    position: absolute;
+    transform: translate(96px, 522px);
+}

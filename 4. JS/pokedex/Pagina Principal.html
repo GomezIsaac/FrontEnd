@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <script src="../pokedex/js/funciones.js" type="text/javascript" defer></script>
+
+    <title>Pokedex</title>
+
+</head>
+
+<body>
+    <section class="centrar">
+        <div class="plantilla font">
+            <section class="posicion1">
+                <form action="" onsubmit="searchPokemon(event)">
+                    <input type="text" name="pokemon" autocomplete="off">
+                </form>
+            </section>
+            <section class="cuadro posicion2 ">
+                <div poke-carta>
+                    <div poke-nombre></div>
+                    <div poke-img-container class="centrar">
+                        <img poke-img class="PokeImg" />
+                        <div poke-id></div>
+                    </div>
+            </section>
+            <section class="cuadro posicion3">
+                <div> Moves: </div>
+                <div poke-movs></div>
+            </section>
+            <section class="bloque1 posicion4">
+                <div poke-stats></div>
+            </section>
+            <section class="bloque2 posicion5 info">
+                <div poke-tipos></div>
+            </section>
+            </div>
+    </section>
+
+</body>
+
+</html>
